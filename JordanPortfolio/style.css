@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight:bold;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body{
+    background-color: rgb(16, 16, 16);
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    margin-left: 11.5rem;
+    width: 10%; /* Largeur définie */
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a:active{
+    color:  rgb(139, 234, 255);
+    border-bottom: 3px solid rgb(139, 234, 255);
+}
+
+.logo{
+    font-size: 3rem;
+    color: rgb(139, 234, 255);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.accueil-img img{
+    position: fixed; /* Permet de couvrir tout l'écran */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garde les proportions et remplit tout l'espace */
+    z-index: -1;
+    filter: blur(5.5px);
+}
+
+.PfpAccount img{
+    width: 125px;
+    height: auto;
+    border-radius: 20%;
+    display: block; /* Nécessaire pour utiliser margin auto */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.PfpAccount img:hover{
+    font-size: 11.8rem;
+    font-weight: 500;
+    transition: 2.5s;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.6);
+    transform: scale(1.3) translateY(-5px);
+}
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 1s ease;
+    -webkit-text-stroke: 2px black
+}
+
+.navbar1{
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.navbar1 a{
+    width: 10%; /* Largeur définie */
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    margin-left: -180px;
+    margin-top: 60px;
+}
